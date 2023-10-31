@@ -22,7 +22,7 @@ function UserAvatar({
           className="rounded-full"
         />
       )}
-      {/* <AvatarImage src={image || ""} /> */}
+      {/* <AvatarImage src="https://i.fbcd.co/products/original/s221128-cat-head-e05-mainpreview-739cdff1e43d362f66989d28e978dcdf400fd71172d53447cb4e0a250debac6b.jpg" />  */}
       <AvatarFallback
         delayMs={1000}
         className="dark:bg-white dark:text-black text-lg"

@@ -16,7 +16,7 @@ function Header() {
             <Logo />
     
             <div className="flex-1 flex items-center justify-end  space-x-4">
-              {/* <LanguageSelect />
+               <LanguageSelect />
     
               {session ? (
                 <>
@@ -29,13 +29,13 @@ function Header() {
                 <Link href={"/pricing"} prefetch={false}>
                   Pricing
                 </Link>
-              )} */}
+              )} 
                 <DarkModeToggle />
-              {/* <UserButton session={session} /> */}
+               <UserButton session={session} />
             </div>
           </nav>
     
-          {/* <UpgradeBanner /> */}
+          <UpgradeBanner /> 
         </header>
       );
     }
