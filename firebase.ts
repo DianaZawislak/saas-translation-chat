@@ -8,12 +8,12 @@ import { getFunctions } from "firebase/functions";
 
 // Your web app's Firebase configuration
 const firebaseConfig = {
-  apiKey: "AIzaSyABsnTyybAEu_iBcYi4RGBVEAeElsnhgPI",
-  authDomain: "ai-translator-chat.firebaseapp.com",
-  projectId: "ai-translator-chat",
-  storageBucket: "ai-translator-chat.appspot.com",
-  messagingSenderId: "297674687117",
-  appId: "1:297674687117:web:0da8856e5a14f3e1a958c4",
+  apiKey: "AIzaSyBHFYql8X6E271t4ElHFMzVFpbHxhr4OE0",
+  authDomain: "saas-chat-48768.firebaseapp.com",
+  projectId: "saas-chat-48768",
+  storageBucket: "saas-chat-48768.appspot.com",
+  messagingSenderId: "715915918016",
+  appId: "1:715915918016:web:d18136c93ab8b90d640b25"
 };
 
 // Initialize Firebase
