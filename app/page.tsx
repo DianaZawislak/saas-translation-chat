@@ -26,15 +26,16 @@ export default function HomePage() {
                 Chat with Anyone, anywhere!
               </h1>
               <p className="mt-6 text-lg leading-8 text-gray-600 dark:text-gray-300">
-                You speak your language, they speak their language.{" "}
-                <span className="text-indigo-200 dark:text-indigo-500">
-                  Let AI handle the translation.
+                Speak to anyone in the world using the language your are comfortable with.<br></br>
+                They will receive your message in a language they can understand{" "}<br></br><br></br>
+                <span className="text-blue-700 dark:text-blue-300 text-2xl">
+                  Let AI worry about the translation
                 </span>
               </p>
               <div className="mt-10 flex items-center justify-center gap-x-6">
                 <Link
                   href="/chat"
-                  className="rounded-md bg-indigo-600 px-3.5 py-2.5 text-sm font-semibold text-white dark:text-white shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
+                  className="rounded-md bg-blue-600 px-3.5 py-2.5 text-sm font-semibold text-white dark:text-white shadow-sm hover:bg-blue-400 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
                 >
                   Get started
                 </Link>
