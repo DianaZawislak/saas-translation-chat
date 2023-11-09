@@ -6,11 +6,11 @@ async function Register() {
   const session = await getServerSession(authOptions);
 
   return (
-    <div className="isolate h-full overflow-hidden bg-gray-900 pb-40">
+    <div className="isolate h-full overflow-hidden bg-grey-900 pb-40">
       <div className="mx-auto max-w-7xl px-6 pb-12 pt-16 text-white text-center lg:px-8">
         <div className="mx-auto max-w-4xl">
           <p className="mt-2 text-4xl font-bold tracking-tight sm:text-5xl">
-            Lets handle your Membership {session?.user?.name?.split(" ")?.[0]}!
+            Memebership options for {session?.user?.name?.split(" ")?.[0]}
           </p>
         </div>
         <div className="relative">
@@ -27,8 +27,8 @@ async function Register() {
             />
             <defs>
               <radialGradient id="radial-gradient">
-                <stop stopColor="#7775D6" />
-                <stop offset={1} stopColor="#E935C1" />
+                <stop stopColor="#757980" />
+                <stop offset={1} stopColor="#4169E1" />
               </radialGradient>
             </defs>
           </svg>
