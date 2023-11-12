@@ -7,14 +7,13 @@ export default async function PricingPage() {
         <div className="mx-auto max-w-4xl">
         
           <p className="mt-2 text-4xl font-bold tracking-tight text-white sm:text-5xl">
-            The right price for you,{" "}
-            <br className="hidden sm:inline lg:hidden" />
-            whoever you are
+            Choose the right plan for you{" "}
+          
           </p>
         </div>
         <div className="relative mt-6">
           <p className="mx-auto max-w-2xl text-lg leading-8 text-white/60">
-            Were 99% sure we have a plan to match 100% of your needs
+            We are 99% sure we have a plan to match 100% of your needs
           </p>
           <svg
             viewBox="0 0 1208 1024"
