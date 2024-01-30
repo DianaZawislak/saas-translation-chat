@@ -14,7 +14,7 @@ function UpgradeBanner() {
   return (
     <Button
       onClick={() => router.push("/register")}
-      className="w-full rounded-none bg-gradient-to-r from-[#0e55e5] to-[#adc0f4] text-center text-white px-5 py-2
+      className="w-full rounded-none bg-gradient-to-r from-[#115BF1] to-[#adc0f4] text-center text-white px-5 py-2
         hover:from-[#b8cbef] hover:to-[#5b86dd] hover:shadow-md hover:opacity-75 transition-all
       "
     >
